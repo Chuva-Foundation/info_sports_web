@@ -27,7 +27,7 @@ function App() {
           </Route>
         </Container>
       </Switch>
-      {/* <Footer /> */}
+      <Footer /> 
     </Router>
   );
 }

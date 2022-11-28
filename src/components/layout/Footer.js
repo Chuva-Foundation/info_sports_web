@@ -1,26 +1,27 @@
- import {FaFacebook, FaInstagram, FaTwiter} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa'
+//import App from '../../App'
 
 import styles from './Footer.module.css'
 
 function Footer() {
     return (
-        <div className={styles.footer}>
+        <footer className={styles.footer}>
             <ul className={styles.social_list}>
                 <li>
-                    FaFacebook
+                    <FaFacebook />
                 </li>
                 <li>
-                    FaInstagram
+                    <FaInstagram />
                 </li>
                 <li>
-                    FaTwiter
+                    <FaTwitter />
                 </li>
             </ul>
             <p className={styles.copy_right}>
-                <span>Info Sports Web</span> &copy; 2022
+                <span>Info Sport</span> &copy; 2022
             </p>
-        </div>
+        </footer>
     )
 }
 
-//export default Footer
+export default Footer
