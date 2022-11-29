@@ -8,7 +8,7 @@ function Home() {
             <h1>
                 Bem-vindo ao <span>Info Sport!</span>
             </h1>
-            <p>Comece</p>
+            <p></p>
             <LinkButton to="/Clubs" text="Criar Equipa" />
             <img src={clubesv} alt="Info Sport" />
         </section>
