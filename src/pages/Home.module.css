@@ -9,7 +9,7 @@
 
 .home_container h1 {
     font-size: 2.5em;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
 }
 
 .home_container h1 span {
@@ -20,7 +20,7 @@
 
 .home_container p {
     margin-bottom: 1.5em;
-    color: 7b7b7b;
+    color: #7b7b7b;
 }
 
 .home_container img {

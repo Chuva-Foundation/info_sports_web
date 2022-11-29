@@ -9,8 +9,7 @@ function Home() {
                 Bem-vindo ao <span>Info Sport</span>
             </h1>
             <p>Comece</p>
-            <a href="/">Criar Equipa</a>
-            <LinkButton to="/equipas" text="Criar Equipa" />
+            <LinkButton to="/clubs.js" text="Criar Equipa" />
             <img src={clubesv} alt="Info Sport" />
         </section>
     )

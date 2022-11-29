@@ -1,3 +1,5 @@
+import Form from '../FormEquipas/Form'
+
 import styles from './Clubs.module.css'
 
 function Clubs() {
@@ -5,7 +7,7 @@ function Clubs() {
         <div className={styles.clubs_container}>
             <h1>Criar Equipa</h1>
             <p></p>
-            <p>Formulário</p>
+            <Form />
         </div>
     )
 }
