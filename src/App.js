@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Equipas from './pages/Equipas'
+import Clubs from './pages/Clubs'
 import Jogos from './pages/Jogos'
 import AboutUs from './pages/About_us'
 import Container from './components/layout/Container'
@@ -16,8 +16,8 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/equipas">
-            <Equipas />
+          <Route path="/clubs">
+            <Clubs />
           </Route>
           <Route path="/jogos">
             <Jogos />

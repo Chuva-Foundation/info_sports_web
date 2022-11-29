@@ -6,10 +6,10 @@ function Home() {
     return (
         <section className={styles.home_container}>
             <h1>
-                Bem-vindo ao <span>Info Sport</span>
+                Bem-vindo ao <span>Info Sport!</span>
             </h1>
             <p>Comece</p>
-            <LinkButton to="/clubs" text="Criar Equipa" />
+            <LinkButton to="/Clubs" text="Criar Equipa" />
             <img src={clubesv} alt="Info Sport" />
         </section>
     )
