@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Clubs from './pages/Clubs'
+//import Equipas from './pages/Equipas'
 import Jogos from './pages/Jogos'
 import AboutUs from './pages/About_us'
 import Container from './components/layout/Container'
